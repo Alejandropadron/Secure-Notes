@@ -9,17 +9,42 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //MARK: Properties
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    
+    //MARK: View Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setDateForLabel()
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //Mark: Helper Methods
+    func setDateForLabel() -> Void{
+        // Get current calender from device
+        // Based on any time zone
+        // set the date for the DateLabel
+        let date  = NSDate()
+        
+        let formatter = NSDateFormatter()
+        formatter.dateStyle = .LongStyle
+        formatter.timeStyle = .ShortStyle
+        formatter.AMSymbol = "AM"
+        formatter.PMSymbol = "PM"
+        
+        
+        let dateTimeString = formatter.stringFromDate(date)
+        
+        dateLabel.text = dateTimeString
     }
-
-
+    
+    //MARK: Actions
+    @IBAction func onDone(sender: UIBarButtonItem) {
+        
+        
+    }
+    
+    
 }
 
