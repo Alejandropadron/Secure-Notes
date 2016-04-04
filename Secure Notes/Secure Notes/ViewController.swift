@@ -11,12 +11,14 @@ import UIKit
 class ViewController: UIViewController {
     //MARK: Properties
     @IBOutlet weak var dateLabel: UILabel!
-    
+    @IBOutlet weak var doneButton: UIBarButtonItem!
+    @IBOutlet weak var noteTextView: UITextView!
     
     //MARK: View Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         setDateForLabel()
+      
         
         
     }
@@ -38,6 +40,9 @@ class ViewController: UIViewController {
         
         dateLabel.text = dateTimeString
     }
+    
+   
+    
     
     //MARK: Actions
     @IBAction func onDone(sender: UIBarButtonItem) {

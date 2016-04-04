@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5C549D1CB1E8E300C87F7A /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C549C1CB1E8E300C87F7A /* NotesTableViewController.swift */; };
+		FA5C549F1CB1E97D00C87F7A /* PriorityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C549E1CB1E97D00C87F7A /* PriorityView.swift */; };
+		FA5C54A11CB1F53700C87F7A /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C54A01CB1F53700C87F7A /* NoteTableViewCell.swift */; };
 		FAD673381CB0C0E7000F3511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD673371CB0C0E7000F3511 /* AppDelegate.swift */; };
 		FAD6733A1CB0C0E7000F3511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD673391CB0C0E7000F3511 /* ViewController.swift */; };
 		FAD6733D1CB0C0E7000F3511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD6733B1CB0C0E7000F3511 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA5C549C1CB1E8E300C87F7A /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		FA5C549E1CB1E97D00C87F7A /* PriorityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityView.swift; sourceTree = "<group>"; };
+		FA5C54A01CB1F53700C87F7A /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
 		FAD673341CB0C0E7000F3511 /* Secure Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secure Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD673371CB0C0E7000F3511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD673391CB0C0E7000F3511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,7 @@
 		FAD6732B1CB0C0E7000F3511 = {
 			isa = PBXGroup;
 			children = (
+				FA5C54A01CB1F53700C87F7A /* NoteTableViewCell.swift */,
 				FAD673361CB0C0E7000F3511 /* Secure Notes */,
 				FAD673351CB0C0E7000F3511 /* Products */,
 			);
@@ -57,9 +64,11 @@
 				FAD673371CB0C0E7000F3511 /* AppDelegate.swift */,
 				FAD673391CB0C0E7000F3511 /* ViewController.swift */,
 				FAD6733B1CB0C0E7000F3511 /* Main.storyboard */,
+				FA5C549C1CB1E8E300C87F7A /* NotesTableViewController.swift */,
 				FAD6733E1CB0C0E7000F3511 /* Assets.xcassets */,
 				FAD673401CB0C0E7000F3511 /* LaunchScreen.storyboard */,
 				FAD673431CB0C0E7000F3511 /* Info.plist */,
+				FA5C549E1CB1E97D00C87F7A /* PriorityView.swift */,
 			);
 			path = "Secure Notes";
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			files = (
 				FAD6733A1CB0C0E7000F3511 /* ViewController.swift in Sources */,
 				FAD673381CB0C0E7000F3511 /* AppDelegate.swift in Sources */,
+				FA5C549F1CB1E97D00C87F7A /* PriorityView.swift in Sources */,
+				FA5C54A11CB1F53700C87F7A /* NoteTableViewCell.swift in Sources */,
+				FA5C549D1CB1E8E300C87F7A /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +307,7 @@
 				FAD673481CB0C0E7000F3511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
