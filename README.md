@@ -1,3 +1,3 @@
 ## Secure Notes
 
-### Some more info goes here (soon)
+### Some more info goes here 
